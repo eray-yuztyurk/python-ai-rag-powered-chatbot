@@ -2,6 +2,13 @@
 
 A multilingual document Q&A chatbot built with Retrieval-Augmented Generation (RAG). Upload PDFs, ask questions in any language, and get accurate answers extracted from your documents.
 
+---
+<p align="center">
+  <img width="2512" height="1398" alt="image" src="https://github.com/user-attachments/assets/54726209-a4e7-4715-ac95-7a762fa4f19a" />
+</p>
+
+---
+
 ## Table of Contents
 
 - [Features](#features)
