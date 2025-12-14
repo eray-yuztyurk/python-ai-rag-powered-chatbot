@@ -76,7 +76,9 @@ Thumbs.db
 *.crt
 secrets/
 credentials/
+.env
 .env.local
+!.env.example
 
 # =========================
 # Test / Coverage
@@ -89,3 +91,4 @@ htmlcov/
 # Docker
 # =========================
 docker-data/
+.env
