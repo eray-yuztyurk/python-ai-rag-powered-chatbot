@@ -1,0 +1,91 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.env/
+.env.*
+.venv/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# AI / ML Artifacts
+# =========================
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.bin
+*.ckpt
+*.safetensors
+
+# =========================
+# Vector Databases / RAG
+# =========================
+chroma/
+chromadb/
+faiss/
+milvus/
+qdrant/
+weaviate/
+
+# =========================
+# Logs & Runtime Files
+# =========================
+*.log
+logs/
+tmp/
+temp/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Secrets / Credentials
+# =========================
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+.env.local
+
+# =========================
+# Test / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Docker
+# =========================
+docker-data/
