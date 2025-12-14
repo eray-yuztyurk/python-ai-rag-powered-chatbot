@@ -1,4 +1,4 @@
-# RAG-Powered Chatbot
+<h1 align="center"> RAG-Powered Chatbot </h1>
 
 A multilingual document Q&A chatbot built with Retrieval-Augmented Generation (RAG). Upload PDFs, ask questions in any language, and get accurate answers extracted from your documents.
 
