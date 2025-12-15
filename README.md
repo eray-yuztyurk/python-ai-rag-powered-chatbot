@@ -4,7 +4,7 @@ A multilingual document Q&A chatbot built with Retrieval-Augmented Generation (R
 
 ---
 <p align="center">
-  <img width="2512" height="1398" alt="image" src="https://github.com/user-attachments/assets/54726209-a4e7-4715-ac95-7a762fa4f19a" />
+ <img width="1878" height="869" alt="image" src="https://github.com/user-attachments/assets/c8d19563-8c1d-4f8b-90e5-d58fe6935a81" />
 </p>
 
 ---
@@ -26,6 +26,7 @@ A multilingual document Q&A chatbot built with Retrieval-Augmented Generation (R
 - **Multi-Model Support**: Choose between local models (TinyLlama, Phi-2) or cloud APIs (Google Gemini, Groq)
 - **Multilingual**: Automatically detects query and document languages, translates when needed for optimal results
 - **Smart Embedding Matching**: Uses language-aware vector search to find relevant content
+- **Source References**: Shows which document pages and sections were used to generate the answer, with relevance scores
 - **Caching**: Models and embeddings are cached to improve performance
 - **Clean UI**: Simple Gradio interface for easy interaction
 
@@ -126,6 +127,10 @@ When you ask a question:
 - Translated query searches vector database for top 3 relevant chunks
 - Retrieved content + original query sent to LLM
 - Answer returned in original query language
+- **Source references** displayed showing:
+  - Document name and page number
+  - Relevance score (0-100%)
+  - Content preview from each retrieved chunk
 
 ### 3. Response Parsing
 Different LLM providers return different formats:
@@ -162,7 +167,7 @@ python-ai-rag-powered-chatbot/
 - `text_splitter()`: Chunks documents (1000 chars, 200 overlap)
 - `load_embedding_model()`: Caches embedding model
 - `inmemory_vector_store_creator()`: Creates vector database
-- `get_content()`: Performs similarity search and returns results
+- `get_content()`: Performs similarity search and returns content, language, and formatted references
 - Model initializers for local, Gemini, and Groq models
 
 **`utils.py`** - Utilities
