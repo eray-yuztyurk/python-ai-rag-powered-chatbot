@@ -46,20 +46,45 @@ User Query → Language Detection → Translation (if needed) → Vector Search 
 
 ## Tech Stack
 
-**Core Frameworks:**
-- LangChain - RAG pipeline orchestration
-- Gradio - Web interface
-- HuggingFace Transformers - Local model inference
+<table>
+<tr>
+<th>Core Technologies</th>
+<th>AI/ML Frameworks</th>
+<th>LLM Providers</th>
+<th>Document & Utilities</th>
+</tr>
+<tr>
+<td>
 
-**LLM Providers:**
-- Google Gemini (via langchain-google-genai)
-- Groq (via langchain-groq)
-- Local models (via HuggingFace)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1.1.3-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![Gradio](https://img.shields.io/badge/Gradio-UI-FF7C00?style=flat&logo=gradio&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-3.1.2-000000?style=flat&logo=flask&logoColor=white)
 
-**Utilities:**
-- langdetect - Language detection
-- sentence-transformers - Multilingual embeddings
-- PyPDF - Document parsing
+</td>
+<td>
+
+![PyTorch](https://img.shields.io/badge/PyTorch-2.9.1-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-4.43.2-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![Sentence Transformers](https://img.shields.io/badge/Sentence--Transformers-2.6.0+-4285F4?style=flat)
+
+</td>
+<td>
+
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat&logo=google&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-000000?style=flat&logo=groq&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace_Hub-FFD21E?style=flat&logo=huggingface&logoColor=black)
+
+</td>
+<td>
+
+![PyPDF](https://img.shields.io/badge/PyPDF-6.4.1-B30B00?style=flat&logo=adobeacrobatreader&logoColor=white)
+![langdetect](https://img.shields.io/badge/langdetect-1.0.9-4B8BBE?style=flat)
+![Pydantic](https://img.shields.io/badge/Pydantic-2.12.5-E92063?style=flat&logo=pydantic&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 ## Installation
 
